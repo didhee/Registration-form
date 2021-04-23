@@ -1,0 +1,148 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family:  arial, Helvetica, sans-serif;
+     font-size: 1.2rem;
+     background-image: url(https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 9;
+}
+
+.container {
+     margin: 0 auto;
+     max-width: 1440px;
+}
+
+form {
+     max-width: 50%;
+     height: 100%;
+     background-color: rgba(255, 255, 255, 0.8);
+     border: 2px solid transparent;
+     border-radius: 2rem;
+     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.7);
+     margin: 0 auto;
+     color: #000;
+}
+
+h1 {
+     text-align: center;
+     margin: 2rem 0;
+     border-bottom: 0.5px solid lightgray;
+     color: #000;
+     padding-bottom: 1rem;
+}
+
+label {
+     margin: 0 0.7rem;
+}
+
+input[type="text"] {
+     border: 1px inset rgb(255, 255, 255);
+     width: 17rem;
+     height: 1.7rem;
+     background-color: rgb(255, 255, 255);
+     border-radius: 7px;
+     padding: 5px 2px;
+}
+
+#address {
+     width: 42rem;
+     margin-left: 1.7rem;
+     margin-bottom: 1rem;
+}
+
+input[type="email"] {
+     border: 1px inset rgb(255, 255, 255);
+     width: 42.4rem;
+     margin: 1rem 0 1rem 2.7rem;
+     border-radius: 7px;
+     padding: 4px 2px;
+     height: 1.7rem;
+}
+
+input[type="password"] {
+     border: 1px inset rgb(255, 255, 255);
+     width: 12.5rem;
+     border-radius: 7px;
+     margin-bottom: 1rem;
+     height: 1.7rem;
+}
+
+input[type="date"] {
+     width: 24rem;
+     height: 1.7rem;
+     border: 1px outset rgb(255, 255, 255);
+     border-radius: 7px;
+     margin-bottom: 1rem;
+}
+
+input[type="radio"] {
+     margin-left: 2rem;
+     margin-bottom: 1rem;
+}
+
+#country {
+     width: 25rem;
+     border: 1px outset rgb(255, 255, 255);
+     border-radius: 5px;
+     margin-left: 0.3rem;
+     margin-bottom: 1rem;
+     height: 1.7rem;
+}
+
+input[type="checkbox"] {
+     margin-left: 1rem;
+     margin-bottom: 1rem;
+}
+
+#medium {
+     width: 28.5rem;
+     border: 1px outset rgb(255, 255, 255);
+     border-radius: 5px;
+     margin-bottom: 1rem;
+     height: 1.7rem;
+}
+
+#feedback {
+     position: relative;
+     left: 8rem;
+     bottom: 1rem;
+     border: 1px solid #7b8597;
+     border-radius: 4px;
+     background-color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+     width: 25rem;
+     background-color: #dd584e;
+     height: 2.5rem;
+     border: 2px outset #c44c43;
+     border-radius: 10px;
+     margin: 3% 25%;
+     color: #fff;
+     font-size: 1.2rem;
+}
+
+button:hover {
+     background-color: #ee8f88;
+     font-style: italic;
+}
+
+button:active {
+     background-color: #c44c43;
+}
+
+p {
+     display: flex;
+     justify-content: flex-end;
+     margin-right: 2rem;
+     font-size: 0.6rem;
+     font-weight: 500;
+}
+
